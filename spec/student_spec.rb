@@ -9,8 +9,8 @@ RSpec.describe Student do
 
   it "has attributes" do
     morgan = Student.new({name: "Morgan", age: 21})
-    expect(morgan.name).to eq "Morgan"
-    expect(morgan.age).to eq 21
+    expect(morgan.name).to eq ("Morgan")
+    expect(morgan.age).to eq (21)
   end
 
   it "starts with no scores" do
